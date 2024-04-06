@@ -9,19 +9,33 @@
 /* Begin PBXBuildFile section */
 		3E67C9432BA85BB40018446D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C9422BA85BB40018446D /* AppDelegate.swift */; };
 		3E67C9452BA85BB40018446D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C9442BA85BB40018446D /* SceneDelegate.swift */; };
-		3E67C9472BA85BB40018446D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C9462BA85BB40018446D /* ViewController.swift */; };
+		3E67C9472BA85BB40018446D /* SomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C9462BA85BB40018446D /* SomeViewController.swift */; };
 		3E67C94C2BA85BB60018446D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E67C94B2BA85BB60018446D /* Assets.xcassets */; };
 		3E67C94F2BA85BB60018446D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3E67C94E2BA85BB60018446D /* Base */; };
+		3E67C9692BA8674A0018446D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C9682BA8674A0018446D /* Coordinator.swift */; };
+		3E67C96B2BA8675F0018446D /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C96A2BA8675F0018446D /* CoordinatorType.swift */; };
+		3E67C96D2BA868A10018446D /* CoordinatorFinishDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C96C2BA868A10018446D /* CoordinatorFinishDelegate.swift */; };
+		3E67C9702BA86D830018446D /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C96F2BA86D830018446D /* ViewControllerFactory.swift */; };
+		3E67C9722BA86DAA0018446D /* SomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C9712BA86DAA0018446D /* SomeCoordinator.swift */; };
+		3E67C9742BA888530018446D /* SomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C9732BA888530018446D /* SomeViewModel.swift */; };
+		3E67C97B2BA88D760018446D /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C97A2BA88D760018446D /* SomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E67C93F2BA85BB40018446D /* GeonPpangArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeonPpangArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E67C9422BA85BB40018446D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E67C9442BA85BB40018446D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E67C9462BA85BB40018446D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E67C9462BA85BB40018446D /* SomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeViewController.swift; sourceTree = "<group>"; };
 		3E67C94B2BA85BB60018446D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E67C94E2BA85BB60018446D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E67C9502BA85BB60018446D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E67C9682BA8674A0018446D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3E67C96A2BA8675F0018446D /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		3E67C96C2BA868A10018446D /* CoordinatorFinishDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFinishDelegate.swift; sourceTree = "<group>"; };
+		3E67C96F2BA86D830018446D /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		3E67C9712BA86DAA0018446D /* SomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeCoordinator.swift; sourceTree = "<group>"; };
+		3E67C9732BA888530018446D /* SomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeViewModel.swift; sourceTree = "<group>"; };
+		3E67C97A2BA88D760018446D /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,189 @@
 		3E67C9412BA85BB40018446D /* GeonPpangArchitectureSample */ = {
 			isa = PBXGroup;
 			children = (
-				3E67C9422BA85BB40018446D /* AppDelegate.swift */,
+				3E67C95C2BA85CCE0018446D /* App */,
+				3E67C95A2BA85CC40018446D /* Presentation */,
+				3E67C9592BA85CC00018446D /* Domain */,
+				3E67C9582BA85CBD0018446D /* Data */,
+				3E67C95B2BA85CC80018446D /* Core */,
 				3E67C9442BA85BB40018446D /* SceneDelegate.swift */,
-				3E67C9462BA85BB40018446D /* ViewController.swift */,
 				3E67C94B2BA85BB60018446D /* Assets.xcassets */,
 				3E67C94D2BA85BB60018446D /* LaunchScreen.storyboard */,
 				3E67C9502BA85BB60018446D /* Info.plist */,
 			);
 			path = GeonPpangArchitectureSample;
+			sourceTree = "<group>";
+		};
+		3E67C9582BA85CBD0018446D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9642BA85D190018446D /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3E67C9592BA85CC00018446D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9632BA85D170018446D /* UseCase */,
+				3E67C9622BA85D130018446D /* Entity */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3E67C95A2BA85CC40018446D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9652BA866EB0018446D /* Common */,
+				3E67C95D2BA85CE30018446D /* SomeScene */,
+				3E67C9752BA88CDE0018446D /* OtherScene */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3E67C95B2BA85CC80018446D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3E67C95C2BA85CCE0018446D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9422BA85BB40018446D /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3E67C95D2BA85CE30018446D /* SomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9612BA85D040018446D /* Coordinator */,
+				3E67C9602BA85D000018446D /* ViewController */,
+				3E67C95F2BA85CFB0018446D /* ViewModel */,
+				3E67C95E2BA85CF40018446D /* View */,
+			);
+			path = SomeScene;
+			sourceTree = "<group>";
+		};
+		3E67C95E2BA85CF40018446D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C97A2BA88D760018446D /* SomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E67C95F2BA85CFB0018446D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9732BA888530018446D /* SomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3E67C9602BA85D000018446D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9462BA85BB40018446D /* SomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3E67C9612BA85D040018446D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9712BA86DAA0018446D /* SomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		3E67C9622BA85D130018446D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3E67C9632BA85D170018446D /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		3E67C9642BA85D190018446D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3E67C9652BA866EB0018446D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9672BA867350018446D /* Coordinator */,
+				3E67C9662BA867280018446D /* Factory */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3E67C9662BA867280018446D /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C96F2BA86D830018446D /* ViewControllerFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		3E67C9672BA867350018446D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9682BA8674A0018446D /* Coordinator.swift */,
+				3E67C96A2BA8675F0018446D /* CoordinatorType.swift */,
+				3E67C96C2BA868A10018446D /* CoordinatorFinishDelegate.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		3E67C9752BA88CDE0018446D /* OtherScene */ = {
+			isa = PBXGroup;
+			children = (
+				3E67C9792BA88CF60018446D /* Coordinator */,
+				3E67C9782BA88CF30018446D /* ViewController */,
+				3E67C9772BA88CF10018446D /* ViewModel */,
+				3E67C9762BA88CEF0018446D /* View */,
+			);
+			path = OtherScene;
+			sourceTree = "<group>";
+		};
+		3E67C9762BA88CEF0018446D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E67C9772BA88CF10018446D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3E67C9782BA88CF30018446D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3E67C9792BA88CF60018446D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E67C9472BA85BB40018446D /* ViewController.swift in Sources */,
+				3E67C9722BA86DAA0018446D /* SomeCoordinator.swift in Sources */,
+				3E67C9692BA8674A0018446D /* Coordinator.swift in Sources */,
+				3E67C9742BA888530018446D /* SomeViewModel.swift in Sources */,
+				3E67C9472BA85BB40018446D /* SomeViewController.swift in Sources */,
+				3E67C97B2BA88D760018446D /* SomeView.swift in Sources */,
+				3E67C9702BA86D830018446D /* ViewControllerFactory.swift in Sources */,
 				3E67C9432BA85BB40018446D /* AppDelegate.swift in Sources */,
+				3E67C96D2BA868A10018446D /* CoordinatorFinishDelegate.swift in Sources */,
 				3E67C9452BA85BB40018446D /* SceneDelegate.swift in Sources */,
+				3E67C96B2BA8675F0018446D /* CoordinatorType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
