@@ -1,1 +1,0 @@
-# geonppang-architecture-sample

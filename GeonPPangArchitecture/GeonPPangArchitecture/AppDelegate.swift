@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  GeonPpangArchitectureSample
+//  GeonPPangArchitecture
 //
-//  Created by 이성민 on 3/18/24.
+//  Created by 이성민 on 4/8/24.
 //
 
 import UIKit
