@@ -15,7 +15,6 @@
     
     - 기존에 도입하고자 했던 `DIContainer`의 도입을 위해서는 `Application` 레이어에 존재해야 합니다
         - 하지만 `DIContainer`의 구현과 러닝커브에 많은 시간이 소요될 것 같다는 생각에 보류 상태입니다
-        
         - 추후 도입하기에 용이하도록 `TabBarController`와 분리하였습니다
 
 - `Main`: 앱의 주된 기능들에 관한 Navigation을 담당합니다
