@@ -45,37 +45,37 @@
 		3E8C48272BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GEON-PPANG-ARCHITECTUREUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8C482B2BC3FBAD00919E06 /* GeonPPangArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeonPPangArchitectureUITests.swift; sourceTree = "<group>"; };
 		3E8C482D2BC3FBAD00919E06 /* GeonPPangArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeonPPangArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3E8C483B2BC40FDF00919E06 /* Resource.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Resource.md; sourceTree = "<group>"; };
-		3E8C485B2BC413C700919E06 /* Application.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Application.md; sourceTree = "<group>"; };
-		3E8C485C2BC413DC00919E06 /* Presentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Presentation.md; sourceTree = "<group>"; };
-		3E8C485D2BC413EE00919E06 /* Common.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Common.md; sourceTree = "<group>"; };
-		3E8C485E2BC413FB00919E06 /* Utils.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Utils.md; sourceTree = "<group>"; };
-		3E8C485F2BC4140100919E06 /* Flow.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Flow.md; sourceTree = "<group>"; };
-		3E8C48602BC4140A00919E06 /* App.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = App.md; sourceTree = "<group>"; };
-		3E8C48612BC4140E00919E06 /* Main.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main.md; sourceTree = "<group>"; };
-		3E8C48622BC4141300919E06 /* Auth.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Auth.md; sourceTree = "<group>"; };
-		3E8C48632BC4141700919E06 /* Home.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Home.md; sourceTree = "<group>"; };
-		3E8C48642BC4141C00919E06 /* BakeryList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BakeryList.md; sourceTree = "<group>"; };
-		3E8C48652BC4142000919E06 /* MyPage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MyPage.md; sourceTree = "<group>"; };
-		3E8C48662BC4142500919E06 /* Filter.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Filter.md; sourceTree = "<group>"; };
-		3E8C48672BC4142A00919E06 /* Search.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Search.md; sourceTree = "<group>"; };
-		3E8C48682BC4142E00919E06 /* BakeryDetail.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BakeryDetail.md; sourceTree = "<group>"; };
-		3E8C48692BC4143300919E06 /* Domain.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Domain.md; sourceTree = "<group>"; };
-		3E8C486A2BC4143C00919E06 /* UseCase.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UseCase.md; sourceTree = "<group>"; };
-		3E8C486B2BC4144000919E06 /* Interface.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Interface.md; sourceTree = "<group>"; };
-		3E8C486C2BC4144600919E06 /* Entity.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Entity.md; sourceTree = "<group>"; };
-		3E8C486D2BC4144D00919E06 /* Error.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Error.md; sourceTree = "<group>"; };
-		3E8C486E2BC4145100919E06 /* Repository.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Repository.md; sourceTree = "<group>"; };
-		3E8C486F2BC4145700919E06 /* Network.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Network.md; sourceTree = "<group>"; };
-		3E8C48702BC4145B00919E06 /* PersistentStorage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PersistentStorage.md; sourceTree = "<group>"; };
-		3E8C48712BC4146000919E06 /* Error.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Error.md; sourceTree = "<group>"; };
-		3E8C48722BC4146800919E06 /* DesignSystem.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignSystem.md; sourceTree = "<group>"; };
-		3E8C48732BC4146F00919E06 /* Core.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Core.md; sourceTree = "<group>"; };
-		3E8C48742BC4147700919E06 /* UIComponents.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIComponents.md; sourceTree = "<group>"; };
-		3E8C48752BC4147B00919E06 /* Source.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Source.md; sourceTree = "<group>"; };
-		3E8C48762BC4147E00919E06 /* Resource.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Resource.md; sourceTree = "<group>"; };
-		3E8C48772BC4148E00919E06 /* Network.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Network.md; sourceTree = "<group>"; };
-		3E8C48782BC414A000919E06 /* Data.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Data.md; sourceTree = "<group>"; };
+		3E8C483B2BC40FDF00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C485B2BC413C700919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C485C2BC413DC00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C485D2BC413EE00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C485E2BC413FB00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C485F2BC4140100919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48602BC4140A00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48612BC4140E00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48622BC4141300919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48632BC4141700919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48642BC4141C00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48652BC4142000919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48662BC4142500919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48672BC4142A00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48682BC4142E00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48692BC4143300919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C486A2BC4143C00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C486B2BC4144000919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C486C2BC4144600919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C486D2BC4144D00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C486E2BC4145100919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C486F2BC4145700919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48702BC4145B00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48712BC4146000919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48722BC4146800919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48732BC4146F00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48742BC4147700919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48752BC4147B00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48762BC4147E00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48772BC4148E00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48782BC414A000919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		3E8C47FE2BC3FBAB00919E06 = {
 			isa = PBXGroup;
 			children = (
-				3E8C48092BC3FBAB00919E06 /* GeonPPangArchitecture */,
+				3E8C48092BC3FBAB00919E06 /* Architecture */,
 				3E8C48202BC3FBAD00919E06 /* GeonPPangArchitectureTests */,
 				3E8C482A2BC3FBAD00919E06 /* GeonPPangArchitectureUITests */,
 				3E8C48082BC3FBAB00919E06 /* Products */,
@@ -123,7 +123,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E8C48092BC3FBAB00919E06 /* GeonPPangArchitecture */ = {
+		3E8C48092BC3FBAB00919E06 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
 				3E8C48422BC412C300919E06 /* Application */,
@@ -133,7 +133,7 @@
 				3E8C483C2BC4112C00919E06 /* Core */,
 				3E8C483A2BC3FC1700919E06 /* Resource */,
 			);
-			path = GeonPPangArchitecture;
+			path = Architecture;
 			sourceTree = "<group>";
 		};
 		3E8C48202BC3FBAD00919E06 /* GeonPPangArchitectureTests */ = {
@@ -156,7 +156,7 @@
 		3E8C483A2BC3FC1700919E06 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C483B2BC40FDF00919E06 /* Resource.md */,
+				3E8C483B2BC40FDF00919E06 /* README.md */,
 				3E8C48152BC3FBAD00919E06 /* LaunchScreen.storyboard */,
 				3E8C48182BC3FBAD00919E06 /* Info.plist */,
 			);
@@ -166,7 +166,7 @@
 		3E8C483C2BC4112C00919E06 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48732BC4146F00919E06 /* Core.md */,
+				3E8C48732BC4146F00919E06 /* README.md */,
 				3E8C48412BC412BB00919E06 /* DesignSystem */,
 				3E8C48402BC412B500919E06 /* Network */,
 			);
@@ -176,7 +176,7 @@
 		3E8C483D2BC4112E00919E06 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48782BC414A000919E06 /* Data.md */,
+				3E8C48782BC414A000919E06 /* README.md */,
 				3E8C48502BC4137100919E06 /* Repository */,
 				3E8C484F2BC4136C00919E06 /* Network */,
 				3E8C484E2BC4136600919E06 /* PersistentStorage */,
@@ -188,7 +188,7 @@
 		3E8C483E2BC4113100919E06 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48692BC4143300919E06 /* Domain.md */,
+				3E8C48692BC4143300919E06 /* README.md */,
 				3E8C484C2BC4135300919E06 /* UseCase */,
 				3E8C484B2BC4134D00919E06 /* Interface */,
 				3E8C484A2BC4133700919E06 /* Entity */,
@@ -200,7 +200,7 @@
 		3E8C483F2BC4113400919E06 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C485C2BC413DC00919E06 /* Presentation.md */,
+				3E8C485C2BC413DC00919E06 /* README.md */,
 				3E8C48482BC4132400919E06 /* Common */,
 				3E8C48462BC4131C00919E06 /* Utils */,
 				3E8C48472BC4132100919E06 /* Flow */,
@@ -211,7 +211,7 @@
 		3E8C48402BC412B500919E06 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48772BC4148E00919E06 /* Network.md */,
+				3E8C48772BC4148E00919E06 /* README.md */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 		3E8C48412BC412BB00919E06 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48722BC4146800919E06 /* DesignSystem.md */,
+				3E8C48722BC4146800919E06 /* README.md */,
 				3E8C48452BC412D500919E06 /* UIComponents */,
 				3E8C48442BC412D300919E06 /* Source */,
 				3E8C48432BC412D000919E06 /* Resource */,
@@ -230,7 +230,7 @@
 		3E8C48422BC412C300919E06 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C485B2BC413C700919E06 /* Application.md */,
+				3E8C485B2BC413C700919E06 /* README.md */,
 				3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */,
 				3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */,
 			);
@@ -240,7 +240,7 @@
 		3E8C48432BC412D000919E06 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48762BC4147E00919E06 /* Resource.md */,
+				3E8C48762BC4147E00919E06 /* README.md */,
 				3E8C48132BC3FBAD00919E06 /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -249,7 +249,7 @@
 		3E8C48442BC412D300919E06 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48752BC4147B00919E06 /* Source.md */,
+				3E8C48752BC4147B00919E06 /* README.md */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -257,7 +257,7 @@
 		3E8C48452BC412D500919E06 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48742BC4147700919E06 /* UIComponents.md */,
+				3E8C48742BC4147700919E06 /* README.md */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 		3E8C48462BC4131C00919E06 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C485E2BC413FB00919E06 /* Utils.md */,
+				3E8C485E2BC413FB00919E06 /* README.md */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -273,7 +273,7 @@
 		3E8C48472BC4132100919E06 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C485F2BC4140100919E06 /* Flow.md */,
+				3E8C485F2BC4140100919E06 /* README.md */,
 				3E8C485A2BC413B700919E06 /* App */,
 				3E8C48592BC413B400919E06 /* Main */,
 				3E8C48582BC413B200919E06 /* Auth */,
@@ -290,7 +290,7 @@
 		3E8C48482BC4132400919E06 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C485D2BC413EE00919E06 /* Common.md */,
+				3E8C485D2BC413EE00919E06 /* README.md */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 		3E8C48492BC4133000919E06 /* Error */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C486D2BC4144D00919E06 /* Error.md */,
+				3E8C486D2BC4144D00919E06 /* README.md */,
 			);
 			path = Error;
 			sourceTree = "<group>";
@@ -306,7 +306,7 @@
 		3E8C484A2BC4133700919E06 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C486C2BC4144600919E06 /* Entity.md */,
+				3E8C486C2BC4144600919E06 /* README.md */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 		3E8C484B2BC4134D00919E06 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C486B2BC4144000919E06 /* Interface.md */,
+				3E8C486B2BC4144000919E06 /* README.md */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -322,7 +322,7 @@
 		3E8C484C2BC4135300919E06 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C486A2BC4143C00919E06 /* UseCase.md */,
+				3E8C486A2BC4143C00919E06 /* README.md */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 		3E8C484D2BC4135A00919E06 /* Error */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48712BC4146000919E06 /* Error.md */,
+				3E8C48712BC4146000919E06 /* README.md */,
 			);
 			path = Error;
 			sourceTree = "<group>";
@@ -338,7 +338,7 @@
 		3E8C484E2BC4136600919E06 /* PersistentStorage */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48702BC4145B00919E06 /* PersistentStorage.md */,
+				3E8C48702BC4145B00919E06 /* README.md */,
 			);
 			path = PersistentStorage;
 			sourceTree = "<group>";
@@ -346,7 +346,7 @@
 		3E8C484F2BC4136C00919E06 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C486F2BC4145700919E06 /* Network.md */,
+				3E8C486F2BC4145700919E06 /* README.md */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -354,7 +354,7 @@
 		3E8C48502BC4137100919E06 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C486E2BC4145100919E06 /* Repository.md */,
+				3E8C486E2BC4145100919E06 /* README.md */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -362,7 +362,7 @@
 		3E8C48522BC4139900919E06 /* BakeryDetail */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48682BC4142E00919E06 /* BakeryDetail.md */,
+				3E8C48682BC4142E00919E06 /* README.md */,
 			);
 			path = BakeryDetail;
 			sourceTree = "<group>";
@@ -370,7 +370,7 @@
 		3E8C48532BC4139F00919E06 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48672BC4142A00919E06 /* Search.md */,
+				3E8C48672BC4142A00919E06 /* README.md */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -378,7 +378,7 @@
 		3E8C48542BC413A100919E06 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48662BC4142500919E06 /* Filter.md */,
+				3E8C48662BC4142500919E06 /* README.md */,
 			);
 			path = Filter;
 			sourceTree = "<group>";
@@ -386,7 +386,7 @@
 		3E8C48552BC413A500919E06 /* MyPage */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48652BC4142000919E06 /* MyPage.md */,
+				3E8C48652BC4142000919E06 /* README.md */,
 			);
 			path = MyPage;
 			sourceTree = "<group>";
@@ -394,7 +394,7 @@
 		3E8C48562BC413A900919E06 /* BakeryList */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48642BC4141C00919E06 /* BakeryList.md */,
+				3E8C48642BC4141C00919E06 /* README.md */,
 			);
 			path = BakeryList;
 			sourceTree = "<group>";
@@ -402,7 +402,7 @@
 		3E8C48572BC413B000919E06 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48632BC4141700919E06 /* Home.md */,
+				3E8C48632BC4141700919E06 /* README.md */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -410,7 +410,7 @@
 		3E8C48582BC413B200919E06 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48622BC4141300919E06 /* Auth.md */,
+				3E8C48622BC4141300919E06 /* README.md */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -418,7 +418,7 @@
 		3E8C48592BC413B400919E06 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48612BC4140E00919E06 /* Main.md */,
+				3E8C48612BC4140E00919E06 /* README.md */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -426,7 +426,7 @@
 		3E8C485A2BC413B700919E06 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48602BC4140A00919E06 /* App.md */,
+				3E8C48602BC4140A00919E06 /* README.md */,
 			);
 			path = App;
 			sourceTree = "<group>";
