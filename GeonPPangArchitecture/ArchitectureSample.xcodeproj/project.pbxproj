@@ -11,9 +11,6 @@
 		3E8C480D2BC3FBAB00919E06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */; };
 		3E8C48142BC3FBAD00919E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8C48132BC3FBAD00919E06 /* Assets.xcassets */; };
 		3E8C48172BC3FBAD00919E06 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3E8C48162BC3FBAD00919E06 /* Base */; };
-		3E8C48222BC3FBAD00919E06 /* GeonPPangArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C48212BC3FBAD00919E06 /* GeonPPangArchitectureTests.swift */; };
-		3E8C482C2BC3FBAD00919E06 /* GeonPPangArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C482B2BC3FBAD00919E06 /* GeonPPangArchitectureUITests.swift */; };
-		3E8C482E2BC3FBAD00919E06 /* GeonPPangArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C482D2BC3FBAD00919E06 /* GeonPPangArchitectureUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E8C48072BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GEON-PPANG-ARCHITECTURE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8C48072BC3FBAB00919E06 /* ArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3E8C48132BC3FBAD00919E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E8C48162BC3FBAD00919E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E8C48182BC3FBAD00919E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E8C481D2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GEON-PPANG-ARCHITECTURETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E8C48212BC3FBAD00919E06 /* GeonPPangArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeonPPangArchitectureTests.swift; sourceTree = "<group>"; };
-		3E8C48272BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GEON-PPANG-ARCHITECTUREUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E8C482B2BC3FBAD00919E06 /* GeonPPangArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeonPPangArchitectureUITests.swift; sourceTree = "<group>"; };
-		3E8C482D2BC3FBAD00919E06 /* GeonPPangArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeonPPangArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E8C481D2BC3FBAD00919E06 /* ArchitectureSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8C48272BC3FBAD00919E06 /* ArchitectureSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8C483B2BC40FDF00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E8C485B2BC413C700919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E8C485C2BC413DC00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -106,9 +100,7 @@
 		3E8C47FE2BC3FBAB00919E06 = {
 			isa = PBXGroup;
 			children = (
-				3E8C48092BC3FBAB00919E06 /* Architecture */,
-				3E8C48202BC3FBAD00919E06 /* GeonPPangArchitectureTests */,
-				3E8C482A2BC3FBAD00919E06 /* GeonPPangArchitectureUITests */,
+				3E8C48092BC3FBAB00919E06 /* ArchitectureSample */,
 				3E8C48082BC3FBAB00919E06 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,14 +108,14 @@
 		3E8C48082BC3FBAB00919E06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48072BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE.app */,
-				3E8C481D2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests.xctest */,
-				3E8C48272BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests.xctest */,
+				3E8C48072BC3FBAB00919E06 /* ArchitectureSample.app */,
+				3E8C481D2BC3FBAD00919E06 /* ArchitectureSampleTests.xctest */,
+				3E8C48272BC3FBAD00919E06 /* ArchitectureSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E8C48092BC3FBAB00919E06 /* Architecture */ = {
+		3E8C48092BC3FBAB00919E06 /* ArchitectureSample */ = {
 			isa = PBXGroup;
 			children = (
 				3E8C48422BC412C300919E06 /* Application */,
@@ -133,24 +125,7 @@
 				3E8C483C2BC4112C00919E06 /* Core */,
 				3E8C483A2BC3FC1700919E06 /* Resource */,
 			);
-			path = Architecture;
-			sourceTree = "<group>";
-		};
-		3E8C48202BC3FBAD00919E06 /* GeonPPangArchitectureTests */ = {
-			isa = PBXGroup;
-			children = (
-				3E8C48212BC3FBAD00919E06 /* GeonPPangArchitectureTests.swift */,
-			);
-			path = GeonPPangArchitectureTests;
-			sourceTree = "<group>";
-		};
-		3E8C482A2BC3FBAD00919E06 /* GeonPPangArchitectureUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3E8C482B2BC3FBAD00919E06 /* GeonPPangArchitectureUITests.swift */,
-				3E8C482D2BC3FBAD00919E06 /* GeonPPangArchitectureUITestsLaunchTests.swift */,
-			);
-			path = GeonPPangArchitectureUITests;
+			path = ArchitectureSample;
 			sourceTree = "<group>";
 		};
 		3E8C483A2BC3FC1700919E06 /* Resource */ = {
@@ -434,9 +409,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E8C48062BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE */ = {
+		3E8C48062BC3FBAB00919E06 /* ArchitectureSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E8C48312BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTURE" */;
+			buildConfigurationList = 3E8C48312BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "ArchitectureSample" */;
 			buildPhases = (
 				3E8C48032BC3FBAB00919E06 /* Sources */,
 				3E8C48042BC3FBAB00919E06 /* Frameworks */,
@@ -446,14 +421,14 @@
 			);
 			dependencies = (
 			);
-			name = "GEON-PPANG-ARCHITECTURE";
+			name = ArchitectureSample;
 			productName = GeonPPangArchitecture;
-			productReference = 3E8C48072BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE.app */;
+			productReference = 3E8C48072BC3FBAB00919E06 /* ArchitectureSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3E8C481C2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests */ = {
+		3E8C481C2BC3FBAD00919E06 /* ArchitectureSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E8C48342BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTURETests" */;
+			buildConfigurationList = 3E8C48342BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "ArchitectureSampleTests" */;
 			buildPhases = (
 				3E8C48192BC3FBAD00919E06 /* Sources */,
 				3E8C481A2BC3FBAD00919E06 /* Frameworks */,
@@ -464,14 +439,14 @@
 			dependencies = (
 				3E8C481F2BC3FBAD00919E06 /* PBXTargetDependency */,
 			);
-			name = "GEON-PPANG-ARCHITECTURETests";
+			name = ArchitectureSampleTests;
 			productName = GeonPPangArchitectureTests;
-			productReference = 3E8C481D2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests.xctest */;
+			productReference = 3E8C481D2BC3FBAD00919E06 /* ArchitectureSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3E8C48262BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests */ = {
+		3E8C48262BC3FBAD00919E06 /* ArchitectureSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E8C48372BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTUREUITests" */;
+			buildConfigurationList = 3E8C48372BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "ArchitectureSampleUITests" */;
 			buildPhases = (
 				3E8C48232BC3FBAD00919E06 /* Sources */,
 				3E8C48242BC3FBAD00919E06 /* Frameworks */,
@@ -482,9 +457,9 @@
 			dependencies = (
 				3E8C48292BC3FBAD00919E06 /* PBXTargetDependency */,
 			);
-			name = "GEON-PPANG-ARCHITECTUREUITests";
+			name = ArchitectureSampleUITests;
 			productName = GeonPPangArchitectureUITests;
-			productReference = 3E8C48272BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests.xctest */;
+			productReference = 3E8C48272BC3FBAD00919E06 /* ArchitectureSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -510,7 +485,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E8C48022BC3FBAB00919E06 /* Build configuration list for PBXProject "GEON-PPANG-ARCHITECTURE" */;
+			buildConfigurationList = 3E8C48022BC3FBAB00919E06 /* Build configuration list for PBXProject "ArchitectureSample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -523,9 +498,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E8C48062BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE */,
-				3E8C481C2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests */,
-				3E8C48262BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests */,
+				3E8C48062BC3FBAB00919E06 /* ArchitectureSample */,
+				3E8C481C2BC3FBAD00919E06 /* ArchitectureSampleTests */,
+				3E8C48262BC3FBAD00919E06 /* ArchitectureSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -570,7 +545,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8C48222BC3FBAD00919E06 /* GeonPPangArchitectureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,8 +552,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8C482C2BC3FBAD00919E06 /* GeonPPangArchitectureUITests.swift in Sources */,
-				3E8C482E2BC3FBAD00919E06 /* GeonPPangArchitectureUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,12 +560,12 @@
 /* Begin PBXTargetDependency section */
 		3E8C481F2BC3FBAD00919E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3E8C48062BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE */;
+			target = 3E8C48062BC3FBAB00919E06 /* ArchitectureSample */;
 			targetProxy = 3E8C481E2BC3FBAD00919E06 /* PBXContainerItemProxy */;
 		};
 		3E8C48292BC3FBAD00919E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3E8C48062BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE */;
+			target = 3E8C48062BC3FBAB00919E06 /* ArchitectureSample */;
 			targetProxy = 3E8C48282BC3FBAD00919E06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -738,7 +710,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S9G6YGQ76H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GeonPPangArchitecture/Resource/Info.plist;
+				INFOPLIST_FILE = ArchitectureSample/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -765,7 +737,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S9G6YGQ76H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GeonPPangArchitecture/Resource/Info.plist;
+				INFOPLIST_FILE = ArchitectureSample/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -799,7 +771,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEON-PPANG-ARCHITECTURE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GEON-PPANG-ARCHITECTURE";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchitectureSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArchitectureSample";
 			};
 			name = Debug;
 		};
@@ -819,7 +791,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEON-PPANG-ARCHITECTURE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GEON-PPANG-ARCHITECTURE";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchitectureSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArchitectureSample";
 			};
 			name = Release;
 		};
@@ -862,7 +834,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E8C48022BC3FBAB00919E06 /* Build configuration list for PBXProject "GEON-PPANG-ARCHITECTURE" */ = {
+		3E8C48022BC3FBAB00919E06 /* Build configuration list for PBXProject "ArchitectureSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E8C482F2BC3FBAD00919E06 /* Debug */,
@@ -871,7 +843,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E8C48312BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTURE" */ = {
+		3E8C48312BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "ArchitectureSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E8C48322BC3FBAD00919E06 /* Debug */,
@@ -880,7 +852,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E8C48342BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTURETests" */ = {
+		3E8C48342BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "ArchitectureSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E8C48352BC3FBAD00919E06 /* Debug */,
@@ -889,7 +861,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E8C48372BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTUREUITests" */ = {
+		3E8C48372BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "ArchitectureSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E8C48382BC3FBAD00919E06 /* Debug */,
