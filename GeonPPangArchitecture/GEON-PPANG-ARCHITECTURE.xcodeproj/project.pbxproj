@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3E8C480B2BC3FBAB00919E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */; };
 		3E8C480D2BC3FBAB00919E06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */; };
-		3E8C480F2BC3FBAB00919E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C480E2BC3FBAB00919E06 /* ViewController.swift */; };
 		3E8C48142BC3FBAD00919E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8C48132BC3FBAD00919E06 /* Assets.xcassets */; };
 		3E8C48172BC3FBAD00919E06 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3E8C48162BC3FBAD00919E06 /* Base */; };
 		3E8C48222BC3FBAD00919E06 /* GeonPPangArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C48212BC3FBAD00919E06 /* GeonPPangArchitectureTests.swift */; };
@@ -35,18 +34,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E8C48072BC3FBAB00919E06 /* GeonPPangArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeonPPangArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8C48072BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GEON-PPANG-ARCHITECTURE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E8C480E2BC3FBAB00919E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E8C48132BC3FBAD00919E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E8C48162BC3FBAD00919E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E8C48182BC3FBAD00919E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E8C481D2BC3FBAD00919E06 /* GeonPPangArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeonPPangArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8C481D2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GEON-PPANG-ARCHITECTURETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8C48212BC3FBAD00919E06 /* GeonPPangArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeonPPangArchitectureTests.swift; sourceTree = "<group>"; };
-		3E8C48272BC3FBAD00919E06 /* GeonPPangArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeonPPangArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8C48272BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GEON-PPANG-ARCHITECTUREUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8C482B2BC3FBAD00919E06 /* GeonPPangArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeonPPangArchitectureUITests.swift; sourceTree = "<group>"; };
 		3E8C482D2BC3FBAD00919E06 /* GeonPPangArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeonPPangArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E8C483B2BC40FDF00919E06 /* Resource.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Resource.md; sourceTree = "<group>"; };
+		3E8C485B2BC413C700919E06 /* Application.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Application.md; sourceTree = "<group>"; };
+		3E8C485C2BC413DC00919E06 /* Presentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Presentation.md; sourceTree = "<group>"; };
+		3E8C485D2BC413EE00919E06 /* Common.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Common.md; sourceTree = "<group>"; };
+		3E8C485E2BC413FB00919E06 /* Utils.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Utils.md; sourceTree = "<group>"; };
+		3E8C485F2BC4140100919E06 /* Flow.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Flow.md; sourceTree = "<group>"; };
+		3E8C48602BC4140A00919E06 /* App.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = App.md; sourceTree = "<group>"; };
+		3E8C48612BC4140E00919E06 /* Main.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Main.md; sourceTree = "<group>"; };
+		3E8C48622BC4141300919E06 /* Auth.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Auth.md; sourceTree = "<group>"; };
+		3E8C48632BC4141700919E06 /* Home.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Home.md; sourceTree = "<group>"; };
+		3E8C48642BC4141C00919E06 /* BakeryList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BakeryList.md; sourceTree = "<group>"; };
+		3E8C48652BC4142000919E06 /* MyPage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MyPage.md; sourceTree = "<group>"; };
+		3E8C48662BC4142500919E06 /* Filter.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Filter.md; sourceTree = "<group>"; };
+		3E8C48672BC4142A00919E06 /* Search.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Search.md; sourceTree = "<group>"; };
+		3E8C48682BC4142E00919E06 /* BakeryDetail.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BakeryDetail.md; sourceTree = "<group>"; };
+		3E8C48692BC4143300919E06 /* Domain.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Domain.md; sourceTree = "<group>"; };
+		3E8C486A2BC4143C00919E06 /* UseCase.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UseCase.md; sourceTree = "<group>"; };
+		3E8C486B2BC4144000919E06 /* Interface.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Interface.md; sourceTree = "<group>"; };
+		3E8C486C2BC4144600919E06 /* Entity.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Entity.md; sourceTree = "<group>"; };
+		3E8C486D2BC4144D00919E06 /* Error.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Error.md; sourceTree = "<group>"; };
+		3E8C486E2BC4145100919E06 /* Repository.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Repository.md; sourceTree = "<group>"; };
+		3E8C486F2BC4145700919E06 /* Network.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Network.md; sourceTree = "<group>"; };
+		3E8C48702BC4145B00919E06 /* PersistentStorage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PersistentStorage.md; sourceTree = "<group>"; };
+		3E8C48712BC4146000919E06 /* Error.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Error.md; sourceTree = "<group>"; };
+		3E8C48722BC4146800919E06 /* DesignSystem.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignSystem.md; sourceTree = "<group>"; };
+		3E8C48732BC4146F00919E06 /* Core.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Core.md; sourceTree = "<group>"; };
+		3E8C48742BC4147700919E06 /* UIComponents.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UIComponents.md; sourceTree = "<group>"; };
+		3E8C48752BC4147B00919E06 /* Source.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Source.md; sourceTree = "<group>"; };
+		3E8C48762BC4147E00919E06 /* Resource.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Resource.md; sourceTree = "<group>"; };
+		3E8C48772BC4148E00919E06 /* Network.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Network.md; sourceTree = "<group>"; };
+		3E8C48782BC414A000919E06 /* Data.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Data.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +116,9 @@
 		3E8C48082BC3FBAB00919E06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E8C48072BC3FBAB00919E06 /* GeonPPangArchitecture.app */,
-				3E8C481D2BC3FBAD00919E06 /* GeonPPangArchitectureTests.xctest */,
-				3E8C48272BC3FBAD00919E06 /* GeonPPangArchitectureUITests.xctest */,
+				3E8C48072BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE.app */,
+				3E8C481D2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests.xctest */,
+				3E8C48272BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,11 +126,12 @@
 		3E8C48092BC3FBAB00919E06 /* GeonPPangArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				3E8C48422BC412C300919E06 /* Application */,
+				3E8C483F2BC4113400919E06 /* Presentation */,
+				3E8C483E2BC4113100919E06 /* Domain */,
+				3E8C483D2BC4112E00919E06 /* Data */,
+				3E8C483C2BC4112C00919E06 /* Core */,
 				3E8C483A2BC3FC1700919E06 /* Resource */,
-				3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */,
-				3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */,
-				3E8C480E2BC3FBAB00919E06 /* ViewController.swift */,
-				3E8C48132BC3FBAD00919E06 /* Assets.xcassets */,
 			);
 			path = GeonPPangArchitecture;
 			sourceTree = "<group>";
@@ -126,18 +156,287 @@
 		3E8C483A2BC3FC1700919E06 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3E8C483B2BC40FDF00919E06 /* Resource.md */,
 				3E8C48152BC3FBAD00919E06 /* LaunchScreen.storyboard */,
 				3E8C48182BC3FBAD00919E06 /* Info.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		3E8C483C2BC4112C00919E06 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48732BC4146F00919E06 /* Core.md */,
+				3E8C48412BC412BB00919E06 /* DesignSystem */,
+				3E8C48402BC412B500919E06 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3E8C483D2BC4112E00919E06 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48782BC414A000919E06 /* Data.md */,
+				3E8C48502BC4137100919E06 /* Repository */,
+				3E8C484F2BC4136C00919E06 /* Network */,
+				3E8C484E2BC4136600919E06 /* PersistentStorage */,
+				3E8C484D2BC4135A00919E06 /* Error */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3E8C483E2BC4113100919E06 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48692BC4143300919E06 /* Domain.md */,
+				3E8C484C2BC4135300919E06 /* UseCase */,
+				3E8C484B2BC4134D00919E06 /* Interface */,
+				3E8C484A2BC4133700919E06 /* Entity */,
+				3E8C48492BC4133000919E06 /* Error */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3E8C483F2BC4113400919E06 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C485C2BC413DC00919E06 /* Presentation.md */,
+				3E8C48482BC4132400919E06 /* Common */,
+				3E8C48462BC4131C00919E06 /* Utils */,
+				3E8C48472BC4132100919E06 /* Flow */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3E8C48402BC412B500919E06 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48772BC4148E00919E06 /* Network.md */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3E8C48412BC412BB00919E06 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48722BC4146800919E06 /* DesignSystem.md */,
+				3E8C48452BC412D500919E06 /* UIComponents */,
+				3E8C48442BC412D300919E06 /* Source */,
+				3E8C48432BC412D000919E06 /* Resource */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		3E8C48422BC412C300919E06 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C485B2BC413C700919E06 /* Application.md */,
+				3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */,
+				3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3E8C48432BC412D000919E06 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48762BC4147E00919E06 /* Resource.md */,
+				3E8C48132BC3FBAD00919E06 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3E8C48442BC412D300919E06 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48752BC4147B00919E06 /* Source.md */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3E8C48452BC412D500919E06 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48742BC4147700919E06 /* UIComponents.md */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		3E8C48462BC4131C00919E06 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C485E2BC413FB00919E06 /* Utils.md */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3E8C48472BC4132100919E06 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C485F2BC4140100919E06 /* Flow.md */,
+				3E8C485A2BC413B700919E06 /* App */,
+				3E8C48592BC413B400919E06 /* Main */,
+				3E8C48582BC413B200919E06 /* Auth */,
+				3E8C48572BC413B000919E06 /* Home */,
+				3E8C48562BC413A900919E06 /* BakeryList */,
+				3E8C48552BC413A500919E06 /* MyPage */,
+				3E8C48542BC413A100919E06 /* Filter */,
+				3E8C48532BC4139F00919E06 /* Search */,
+				3E8C48522BC4139900919E06 /* BakeryDetail */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		3E8C48482BC4132400919E06 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C485D2BC413EE00919E06 /* Common.md */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3E8C48492BC4133000919E06 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C486D2BC4144D00919E06 /* Error.md */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		3E8C484A2BC4133700919E06 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C486C2BC4144600919E06 /* Entity.md */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3E8C484B2BC4134D00919E06 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C486B2BC4144000919E06 /* Interface.md */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		3E8C484C2BC4135300919E06 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C486A2BC4143C00919E06 /* UseCase.md */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		3E8C484D2BC4135A00919E06 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48712BC4146000919E06 /* Error.md */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		3E8C484E2BC4136600919E06 /* PersistentStorage */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48702BC4145B00919E06 /* PersistentStorage.md */,
+			);
+			path = PersistentStorage;
+			sourceTree = "<group>";
+		};
+		3E8C484F2BC4136C00919E06 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C486F2BC4145700919E06 /* Network.md */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3E8C48502BC4137100919E06 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C486E2BC4145100919E06 /* Repository.md */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		3E8C48522BC4139900919E06 /* BakeryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48682BC4142E00919E06 /* BakeryDetail.md */,
+			);
+			path = BakeryDetail;
+			sourceTree = "<group>";
+		};
+		3E8C48532BC4139F00919E06 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48672BC4142A00919E06 /* Search.md */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		3E8C48542BC413A100919E06 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48662BC4142500919E06 /* Filter.md */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		3E8C48552BC413A500919E06 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48652BC4142000919E06 /* MyPage.md */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		3E8C48562BC413A900919E06 /* BakeryList */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48642BC4141C00919E06 /* BakeryList.md */,
+			);
+			path = BakeryList;
+			sourceTree = "<group>";
+		};
+		3E8C48572BC413B000919E06 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48632BC4141700919E06 /* Home.md */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3E8C48582BC413B200919E06 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48622BC4141300919E06 /* Auth.md */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3E8C48592BC413B400919E06 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48612BC4140E00919E06 /* Main.md */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3E8C485A2BC413B700919E06 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48602BC4140A00919E06 /* App.md */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E8C48062BC3FBAB00919E06 /* GeonPPangArchitecture */ = {
+		3E8C48062BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E8C48312BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GeonPPangArchitecture" */;
+			buildConfigurationList = 3E8C48312BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTURE" */;
 			buildPhases = (
 				3E8C48032BC3FBAB00919E06 /* Sources */,
 				3E8C48042BC3FBAB00919E06 /* Frameworks */,
@@ -147,14 +446,14 @@
 			);
 			dependencies = (
 			);
-			name = GeonPPangArchitecture;
+			name = "GEON-PPANG-ARCHITECTURE";
 			productName = GeonPPangArchitecture;
-			productReference = 3E8C48072BC3FBAB00919E06 /* GeonPPangArchitecture.app */;
+			productReference = 3E8C48072BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3E8C481C2BC3FBAD00919E06 /* GeonPPangArchitectureTests */ = {
+		3E8C481C2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E8C48342BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GeonPPangArchitectureTests" */;
+			buildConfigurationList = 3E8C48342BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTURETests" */;
 			buildPhases = (
 				3E8C48192BC3FBAD00919E06 /* Sources */,
 				3E8C481A2BC3FBAD00919E06 /* Frameworks */,
@@ -165,14 +464,14 @@
 			dependencies = (
 				3E8C481F2BC3FBAD00919E06 /* PBXTargetDependency */,
 			);
-			name = GeonPPangArchitectureTests;
+			name = "GEON-PPANG-ARCHITECTURETests";
 			productName = GeonPPangArchitectureTests;
-			productReference = 3E8C481D2BC3FBAD00919E06 /* GeonPPangArchitectureTests.xctest */;
+			productReference = 3E8C481D2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3E8C48262BC3FBAD00919E06 /* GeonPPangArchitectureUITests */ = {
+		3E8C48262BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E8C48372BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GeonPPangArchitectureUITests" */;
+			buildConfigurationList = 3E8C48372BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTUREUITests" */;
 			buildPhases = (
 				3E8C48232BC3FBAD00919E06 /* Sources */,
 				3E8C48242BC3FBAD00919E06 /* Frameworks */,
@@ -183,9 +482,9 @@
 			dependencies = (
 				3E8C48292BC3FBAD00919E06 /* PBXTargetDependency */,
 			);
-			name = GeonPPangArchitectureUITests;
+			name = "GEON-PPANG-ARCHITECTUREUITests";
 			productName = GeonPPangArchitectureUITests;
-			productReference = 3E8C48272BC3FBAD00919E06 /* GeonPPangArchitectureUITests.xctest */;
+			productReference = 3E8C48272BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +510,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E8C48022BC3FBAB00919E06 /* Build configuration list for PBXProject "GeonPPangArchitecture" */;
+			buildConfigurationList = 3E8C48022BC3FBAB00919E06 /* Build configuration list for PBXProject "GEON-PPANG-ARCHITECTURE" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,9 +523,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E8C48062BC3FBAB00919E06 /* GeonPPangArchitecture */,
-				3E8C481C2BC3FBAD00919E06 /* GeonPPangArchitectureTests */,
-				3E8C48262BC3FBAD00919E06 /* GeonPPangArchitectureUITests */,
+				3E8C48062BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE */,
+				3E8C481C2BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTURETests */,
+				3E8C48262BC3FBAD00919E06 /* GEON-PPANG-ARCHITECTUREUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +561,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8C480F2BC3FBAB00919E06 /* ViewController.swift in Sources */,
 				3E8C480B2BC3FBAB00919E06 /* AppDelegate.swift in Sources */,
 				3E8C480D2BC3FBAB00919E06 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,12 +588,12 @@
 /* Begin PBXTargetDependency section */
 		3E8C481F2BC3FBAD00919E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3E8C48062BC3FBAB00919E06 /* GeonPPangArchitecture */;
+			target = 3E8C48062BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE */;
 			targetProxy = 3E8C481E2BC3FBAD00919E06 /* PBXContainerItemProxy */;
 		};
 		3E8C48292BC3FBAD00919E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3E8C48062BC3FBAB00919E06 /* GeonPPangArchitecture */;
+			target = 3E8C48062BC3FBAB00919E06 /* GEON-PPANG-ARCHITECTURE */;
 			targetProxy = 3E8C48282BC3FBAD00919E06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -501,7 +799,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeonPPangArchitecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeonPPangArchitecture";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEON-PPANG-ARCHITECTURE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GEON-PPANG-ARCHITECTURE";
 			};
 			name = Debug;
 		};
@@ -521,7 +819,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeonPPangArchitecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeonPPangArchitecture";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEON-PPANG-ARCHITECTURE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GEON-PPANG-ARCHITECTURE";
 			};
 			name = Release;
 		};
@@ -564,7 +862,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E8C48022BC3FBAB00919E06 /* Build configuration list for PBXProject "GeonPPangArchitecture" */ = {
+		3E8C48022BC3FBAB00919E06 /* Build configuration list for PBXProject "GEON-PPANG-ARCHITECTURE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E8C482F2BC3FBAD00919E06 /* Debug */,
@@ -573,7 +871,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E8C48312BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GeonPPangArchitecture" */ = {
+		3E8C48312BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTURE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E8C48322BC3FBAD00919E06 /* Debug */,
@@ -582,7 +880,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E8C48342BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GeonPPangArchitectureTests" */ = {
+		3E8C48342BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTURETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E8C48352BC3FBAD00919E06 /* Debug */,
@@ -591,7 +889,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E8C48372BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GeonPPangArchitectureUITests" */ = {
+		3E8C48372BC3FBAD00919E06 /* Build configuration list for PBXNativeTarget "GEON-PPANG-ARCHITECTUREUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E8C48382BC3FBAD00919E06 /* Debug */,
