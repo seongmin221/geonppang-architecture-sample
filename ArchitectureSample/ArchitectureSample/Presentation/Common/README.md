@@ -8,3 +8,4 @@
 
 - 내부에 들어갈 파일들은 `Domain` 지식을 알고 있는 네이밍으로 지어도 괜찮습니다
     - `Presentation` 레이어는 `Domain` 레이어를 이미 알고 있기 때문입니다  
+    - e.g. `BakeryListCommonCell`, `BakeryListCollectionViewLayout`
