@@ -1,6 +1,6 @@
 #  Presentation
 
-### 간략한 설명
+### 설명
 
 - Clean Architecture의 Presentation Layer입니다
 - 앱의 User Interaction 부분을 담당합니다

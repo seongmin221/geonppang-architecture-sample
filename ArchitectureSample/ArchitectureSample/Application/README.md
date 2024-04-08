@@ -1,6 +1,6 @@
 # Application
 
-### 간략한 설명
+### 설명
 
 - Clean Architecture의 Application Layer입니다
 - 앱을 실행하는 데에 필요한 전체적인 요소들을 initialize 및 관리하는 레이어입니다
