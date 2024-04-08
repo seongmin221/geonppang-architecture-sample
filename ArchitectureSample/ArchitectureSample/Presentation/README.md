@@ -14,27 +14,28 @@
 
 - `Utils`: **UI와 관련된** extension 및 유용한 도구들을 모아두는 폴더입니다
     - Convention: `UIViewController+<extension 내용>`
+
         - e.g. `UICollectionView+Register`
-        ```swift
-        extension UICollectionView {
+            ```swift
+            extension UICollectionView {
+        
+                /// cell 여러개
+                
+                func registerCells(cells: [UICollectionViewCell.Type]) { /* implementation */ }
+                
+                func registerHeaders(headers: [UICollectionReusableView.Type]) { /* implementation */ }
+                
+                func registerFooters(footers: [UICollectionReusableView.Type]) { /* implementation */ }
     
-            /// cell 여러개
-            
-            func registerCells(cells: [UICollectionViewCell.Type]) { /* implementation */ }
-            
-            func registerHeaders(headers: [UICollectionReusableView.Type]) { /* implementation */ }
-            
-            func registerFooters(footers: [UICollectionReusableView.Type]) { /* implementation */ }
-
-            /// cell 1개
-
-            func register<T: UICollectionViewCell>(cell: T.Type) { /* implementation */ }
-
-            func register<T: UICollectionReusableView>(header: T.Type) { /* implementation */ }
-            
-            func register<T: UICollectionReusableView>(footer: T.Type) { /* implementation */ }
-        }
-        ```
+                /// cell 1개
+    
+                func register<T: UICollectionViewCell>(cell: T.Type) { /* implementation */ }
+    
+                func register<T: UICollectionReusableView>(header: T.Type) { /* implementation */ }
+                
+                func register<T: UICollectionReusableView>(footer: T.Type) { /* implementation */ }
+            }
+            ```
 
 - `Flow`: Coordinator Pattern을 적용했기 때문에, 각 Coordinator 별로 포함하는 View를 분리하였습니다
     - 자세한 Coordinator 흐름은 약간의 수정중에 있기 때문에, 추후 업데이트 할 예정입니다
