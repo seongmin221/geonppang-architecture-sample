@@ -1,4 +1,4 @@
-#  UseCase
+#  Domain/UseCase
 
 ### 설명
 
