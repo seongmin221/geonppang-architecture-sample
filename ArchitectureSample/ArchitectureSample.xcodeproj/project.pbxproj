@@ -70,6 +70,10 @@
 		3E8C48762BC4147E00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E8C48772BC4148E00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E8C48782BC414A000919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C487B2BC52B6E00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C487F2BC52BA800919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48802BC52BAE00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E8C48812BC52BB200919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +326,8 @@
 			isa = PBXGroup;
 			children = (
 				3E8C486F2BC4145700919E06 /* README.md */,
+				3E8C487A2BC52B4000919E06 /* Endpoints */,
+				3E8C48792BC52B3500919E06 /* DataMapping */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -404,6 +410,40 @@
 				3E8C48602BC4140A00919E06 /* README.md */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		3E8C48792BC52B3500919E06 /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C487F2BC52BA800919E06 /* README.md */,
+				3E8C487E2BC52B8700919E06 /* RequestDTO */,
+				3E8C487D2BC52B7400919E06 /* ResponseDTO */,
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		3E8C487A2BC52B4000919E06 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C487B2BC52B6E00919E06 /* README.md */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		3E8C487D2BC52B7400919E06 /* ResponseDTO */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48812BC52BB200919E06 /* README.md */,
+			);
+			path = ResponseDTO;
+			sourceTree = "<group>";
+		};
+		3E8C487E2BC52B8700919E06 /* RequestDTO */ = {
+			isa = PBXGroup;
+			children = (
+				3E8C48802BC52BAE00919E06 /* README.md */,
+			);
+			path = RequestDTO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
