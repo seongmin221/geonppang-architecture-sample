@@ -33,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		3E01B85F2BC7750000E4A1A3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		3E01B8622BC7A8DB00E4A1A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E8C48072BC3FBAB00919E06 /* ArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E01B8612BC7A8AF00E4A1A3 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				3E01B8622BC7A8DB00E4A1A3 /* README.md */,
+				3E8C48402BC412B500919E06 /* Network */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
 		3E8C47FE2BC3FBAB00919E06 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 				3E8C483E2BC4113100919E06 /* Domain */,
 				3E8C483D2BC4112E00919E06 /* Data */,
 				3E8C483C2BC4112C00919E06 /* Core */,
+				3E01B8612BC7A8AF00E4A1A3 /* Infrastructure */,
 				3E8C483A2BC3FC1700919E06 /* Resource */,
 			);
 			path = ArchitectureSample;
@@ -149,7 +160,6 @@
 			children = (
 				3E8C48732BC4146F00919E06 /* README.md */,
 				3E8C48412BC412BB00919E06 /* DesignSystem */,
-				3E8C48402BC412B500919E06 /* Network */,
 			);
 			path = Core;
 			sourceTree = "<group>";
