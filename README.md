@@ -1,5 +1,7 @@
 # 건빵 아키텍쳐 샘플
 
+## Overview
+
 ### 설명 
 
 - 건빵은 (리팩토링 이후) `Clean Architecture`, `MVVM-C`, `UIKit(Code-based)`, `Combine`, `URLSession`을 기본적으로 사용합니다
@@ -22,5 +24,13 @@
 - 설계하면서, 각각 레이어에 필요한 요소들의 의미와 이유를 파악하자
 
 - 웬만한 객체 간의 메시지 전송은 Protocol로 하자
+
+<br>
+
+## Coodinator 설계
+
+![Frame 988103](https://github.com/seongmin221/geonppang-architecture-sample/assets/72431640/d6da7818-154a-4f72-9df1-8df472037b34)
+
+
 
 (수정 중..)
