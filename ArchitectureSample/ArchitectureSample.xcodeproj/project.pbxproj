@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E01B8602BC7750000E4A1A3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E01B85F2BC7750000E4A1A3 /* AppCoordinator.swift */; };
 		3E8C480B2BC3FBAB00919E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */; };
 		3E8C480D2BC3FBAB00919E06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */; };
 		3E8C48142BC3FBAD00919E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8C48132BC3FBAD00919E06 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E01B85F2BC7750000E4A1A3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		3E8C48072BC3FBAB00919E06 /* ArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				3E8C485B2BC413C700919E06 /* README.md */,
 				3E8C480A2BC3FBAB00919E06 /* AppDelegate.swift */,
 				3E8C480C2BC3FBAB00919E06 /* SceneDelegate.swift */,
+				3E01B85F2BC7750000E4A1A3 /* AppCoordinator.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -253,7 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				3E8C485F2BC4140100919E06 /* README.md */,
-				3E8C485A2BC413B700919E06 /* App */,
+				3E8C485A2BC413B700919E06 /* Launch */,
 				3E8C48592BC413B400919E06 /* Main */,
 				3E8C48582BC413B200919E06 /* Auth */,
 				3E8C48572BC413B000919E06 /* Home */,
@@ -404,12 +407,12 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		3E8C485A2BC413B700919E06 /* App */ = {
+		3E8C485A2BC413B700919E06 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
 				3E8C48602BC4140A00919E06 /* README.md */,
 			);
-			path = App;
+			path = Launch;
 			sourceTree = "<group>";
 		};
 		3E8C48792BC52B3500919E06 /* DataMapping */ = {
@@ -576,6 +579,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E01B8602BC7750000E4A1A3 /* AppCoordinator.swift in Sources */,
 				3E8C480B2BC3FBAB00919E06 /* AppDelegate.swift in Sources */,
 				3E8C480D2BC3FBAB00919E06 /* SceneDelegate.swift in Sources */,
 			);

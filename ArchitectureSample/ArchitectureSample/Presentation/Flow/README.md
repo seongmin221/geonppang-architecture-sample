@@ -10,12 +10,21 @@
 
 ### 구성 요소 (논의 필요)
 
-- `App`: 전반적인 App의 Navigation을 담당합니다
+~~- `App`: 전반적인 App의 Navigation을 담당합니다~~
+    ~~- `LaunchScreenVC`로 시작해, 로그인 여부를 판단한 뒤 `Main` 또는 `Auth`로 이동합니다~~
+    
+    ~~- 기존에 도입하고자 했던 `DIContainer`의 도입을 위해서는 `Application` 레이어에 존재해야 합니다~~
+        ~~- 하지만 `DIContainer`의 구현과 러닝커브에 많은 시간이 소요될 것 같다는 생각에 보류 상태입니다~~
+        ~~- 추후 도입하기에 용이하도록 `TabBarController`와 분리하였습니다~~
+
+(2024.04.09 update)
+- `Launch`: `LaunchScreen`을 띄울 때 필요한 Coordinaotor
     - `LaunchScreenVC`로 시작해, 로그인 여부를 판단한 뒤 `Main` 또는 `Auth`로 이동합니다
     
-    - 기존에 도입하고자 했던 `DIContainer`의 도입을 위해서는 `Application` 레이어에 존재해야 합니다
-        - 하지만 `DIContainer`의 구현과 러닝커브에 많은 시간이 소요될 것 같다는 생각에 보류 상태입니다
-        - 추후 도입하기에 용이하도록 `TabBarController`와 분리하였습니다
+    - `AppCoordinator`를 `Application` 레이어로 이동하고, `LaunchScreen`을 위한 Coordinator 생성
+        - `DIContainer`를 추후에 도입하기 위해서는 `AppCoordinator`를 `Application` 레이어로 이동
+        - `LaunchScreen`에서 로그인 여부 판단 후 `AppCoordinator`에 적절한 Flow를 실행해달라고 요청
+        
 
 - `Main`: 앱의 주된 기능들에 관한 Navigation을 담당합니다
     - `TabBarController`로 시작해, 각 `Tab` 별로 `Home`, `BakeryList`, `MyPage`를 `children`으로 갖습니다

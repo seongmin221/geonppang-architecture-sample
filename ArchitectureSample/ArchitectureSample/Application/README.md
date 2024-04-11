@@ -9,5 +9,5 @@
 ### 구성 요소
 - `AppDelegate`
 - `SceneDelegate`
-- (`AppCoordinator`): `DIContainer` 도입 시 함께 도입 예정 
+- `AppCoordinator`: 앱 전체의 Flow 관련 동작을 관리하는 Coordinator
 - (`DIContainer`): 도입 예정이었으나, 러닝커브와 과도한 리소스가 사용될 것 같았기에, 보류
