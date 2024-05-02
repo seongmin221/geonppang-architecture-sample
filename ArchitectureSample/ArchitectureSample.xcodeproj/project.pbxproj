@@ -77,6 +77,7 @@
 		3E8C487F2BC52BA800919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E8C48802BC52BAE00919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E8C48812BC52BB200919E06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E93BCAD2BE377B1005B658F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +195,7 @@
 				3E8C485C2BC413DC00919E06 /* README.md */,
 				3E8C48482BC4132400919E06 /* Common */,
 				3E8C48462BC4131C00919E06 /* Utils */,
+				3E93BCAC2BE37797005B658F /* Coordinator */,
 				3E8C48472BC4132100919E06 /* Flow */,
 			);
 			path = Presentation;
@@ -457,6 +459,14 @@
 				3E8C48802BC52BAE00919E06 /* README.md */,
 			);
 			path = RequestDTO;
+			sourceTree = "<group>";
+		};
+		3E93BCAC2BE37797005B658F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3E93BCAD2BE377B1005B658F /* README.md */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

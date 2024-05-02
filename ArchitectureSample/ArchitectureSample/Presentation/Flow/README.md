@@ -6,7 +6,7 @@
 
 - 각 폴더별로 하나의 `Coordinator`와 `Coordinator의 추상화`가 존재합니다
 
-- 각 폴더별로 해당 Flow에 포함되는 `ViewController`, `ViewModel`, `View`가 존재합니다
+- 각 폴더별로 해당 Flow에 포함되는 `ViewController`, `ViewModel`, `View`, `Cell` 등이 존재합니다
 
 ### 구성 요소 (논의 필요)
 
